@@ -1,0 +1,18 @@
+{
+  "name": "Ebrahim Merchant",
+  "subtitle": "Software Engineering",
+  "mediaListItems": [
+    {
+      "iconName": "fa fa-linkedin",
+      "link": "https://ca.linkedin.com/in/ebrahim-merchant-256549114"
+    },
+    {
+      "iconName": "fa fa-github",
+      "link": "https://github.com/Ebrahim-Merchant"
+    },
+    {
+      "iconName": "fa fa-envelope",
+      "link": "mailto: Ebrahim.merchant@hotmail.com"
+    }
+  ]
+}
