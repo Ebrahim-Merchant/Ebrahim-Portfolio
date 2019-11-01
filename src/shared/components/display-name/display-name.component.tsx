@@ -24,12 +24,14 @@ export default class DisplayName extends Component<DisplayPage, State> {
         <h1 className="name">{name}</h1>
         <p className="subtitle">{subtitle}</p>
           <ul className="media-list">
-            {mediaListItems.map(mediaElement => (
-              <li>
+            {mediaListItems.map((mediaElement,index) => (
+              <li key={index}>
                 <a
                   className={'icon '+ mediaElement.iconName}
                   href={mediaElement.link}
-                ></a>
+                >
+                <span className="label">{mediaElement.label}</span>
+                </a>
               </li>
             ))}
           </ul>

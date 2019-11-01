@@ -3,16 +3,29 @@
   "subtitle": "Software Engineering",
   "mediaListItems": [
     {
+      "label": "Linkedin",
       "iconName": "fa fa-linkedin",
       "link": "https://ca.linkedin.com/in/ebrahim-merchant-256549114"
     },
     {
+      "label": "Github",
       "iconName": "fa fa-github",
       "link": "https://github.com/Ebrahim-Merchant"
     },
     {
+      "label": "E-mail",
       "iconName": "fa fa-envelope",
       "link": "mailto: Ebrahim.merchant@hotmail.com"
+    },
+    {
+      "label": "Resume",
+      "iconName": "fa fa-file",
+      "link": "assets/resume/latest.pdf"
+    },
+    {
+      "label": "More",
+      "iconName": "fa fa-ellipsis-h",
+      "link": "assets/resume/latest.pdf"
     }
   ]
 }
