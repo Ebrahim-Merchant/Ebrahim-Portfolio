@@ -1,3 +1,5 @@
+
+
 {
   "name": "Ebrahim Merchant",
   "subtitle": "Software Engineering",
@@ -15,17 +17,26 @@
     {
       "label": "E-mail",
       "iconName": "fa fa-envelope",
-      "link": "mailto: Ebrahim.merchant@hotmail.com"
+      "link": "mailto:ebrahim.merchant@hotmail.com"
     },
     {
       "label": "Resume",
       "iconName": "fa fa-file",
-      "link": "assets/resume/latest.pdf"
+      "link": "/assets/files/resume.pdf"
+    }
+  ],
+  "listItems": [
+    {
+      "label": "Home",
+      "link": "#home"
     },
     {
-      "label": "More",
-      "iconName": "fa fa-ellipsis-h",
-      "link": "assets/resume/latest.pdf"
+      "label": "About Me",
+      "link": "#about"
+    },
+    {
+      "label": "Experience",
+      "link": "#experience"
     }
   ]
 }
