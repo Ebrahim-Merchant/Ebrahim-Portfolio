@@ -1,7 +1,16 @@
 .landing-page{
     width: 100%;
     min-height:100vh;
-    background-image: url('./../../assets/images/cool-background.png')
+    background-color: rgb(26, 26, 26);
+    // background-image: url('./../../assets/images/uni_background.jpg');
+    // background-size:     cover;               
+    // background-repeat:   no-repeat;
+    // background-position: right 20% bottom 80%;    
+     position: relative;
+    .nav-bar-position {
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 .center{
@@ -16,6 +25,6 @@
 }
 
 .about{
-    min-height: 100vh;
-    animation-timing-function: ease-in
+    animation-timing-function: ease-in;
+    height: 90vh;
 }

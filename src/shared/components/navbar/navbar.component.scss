@@ -1,9 +1,19 @@
 .nav-heading{
     list-style-type: none;
-    margin-top: 0;
-    padding: 0;
-    position: fixed;
-    top: 0;
+    &.top{
+        margin-top: 0;
+        padding: 0;
+        position: fixed;
+        top: 0;
+    }
+
+    &.bottom{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
     text-align: center;
     width: 100%;
     &.colored{
@@ -24,11 +34,11 @@
             text-decoration: none;
             letter-spacing: -0.025rem;
             font-weight: 250;
-            opacity: 0.8;
+            opacity: 0.5;
         }
     }
-    li:hover{
-        background-color: rgba($color: #ffff, $alpha: 0.2);
+    a:hover{
+        opacity: 1;
         .label{
             visibility: visible !important;
         }
