@@ -1,0 +1,41 @@
+.home {
+  text-align: center;
+  color: white;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    scroll-behavior: smooth;
+    font-size: 14px;
+  }
+}
+
+.label{
+  visibility: hidden;
+  width: 6rem;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.6rem;
+  padding: 0.5rem 0;
+  font: 1rem 'Roboto';
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  left: 50%;
+  margin-left: -3rem;
+}
+
+%reset-list{
+  list-style-type: none;
+}
+/* TODO Icons before hover and after hover */
+/* TODO animations for entrance */
+/* TODO FilmStrip like thing for latest projects */
+
+

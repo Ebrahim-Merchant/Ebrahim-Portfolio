@@ -1,0 +1,10 @@
+.project-list{
+    list-style-type: none;
+    .project-item{
+        display: inline-block;
+        width:10rem;
+        height:10rem;
+        background-color: black;
+        margin:10px;
+    }
+}
