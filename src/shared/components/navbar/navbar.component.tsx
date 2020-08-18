@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { NavBarItem } from './../../models/navbar.list';
 import "./navbar.component.scss";
+import { NavBarItem } from 'src/shared/models/navbar.list';
 
 export interface INavBarProps {
   className?: string;
@@ -27,19 +27,14 @@ export default class NavBar extends React.Component<INavBarProps, INavBarState> 
         return "nav-heading colored top"
     }
   }
-
-  handleClick(event: any){
-    console.log(event.screenX);
-    console.log(event.screenY);
-
-  }
+  
   render() {
-    const {handleClick, listItem, isTransparent} = this.props;
+    const {listItem, isTransparent} = this.props;
     return (
       <ul className={this.getClass(isTransparent)}>
           {listItem.map((item, index) => (
               <li key={index}>
-                  <a href={item.link} onClick={(event) => {this.handleClick(event)}}>{item.label}</a>
+                  <a href={item.link}>{item.label}</a>
                   {/* <span className="label">
                       {item.label}
                   </span> */}

@@ -4,10 +4,12 @@
     background-color: whitesmoke;
     color: #444649;
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     .text{
-        width: 50%;
+        padding: 2rem;
+        text-align: left;
         .heading{
             font-size: 2rem;
             font-weight: 600;

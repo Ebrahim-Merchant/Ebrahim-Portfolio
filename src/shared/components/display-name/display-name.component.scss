@@ -1,22 +1,18 @@
-$title-font-size: 3rem;
+$title-font-size: 5rem;
 $subtitle-font-size: 1.6rem;
+$info-font-size: 1.2rem;
 $margin: 0 0 0.8rem 0;
 $fa-icon-size: 1.5rem;
 
 .display-name {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  animation: fadein 4s;
-  z-index: 999;
-  @keyframes fadein {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
+  animation: fade-in 4s;
   .media-list {
     list-style-type: none;
     margin-top: 0;
@@ -44,17 +40,28 @@ $fa-icon-size: 1.5rem;
     opacity: 0.9;
     margin: $margin;
   }
+
+  .info {
+    font-size: $info-font-size;
+    letter-spacing: -0.025rem;
+    font-weight: 250;
+    opacity: 0.9;
+    margin: $margin;
+  }
+
   .icon {
     text-decoration: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
     color: inherit;
-    border-radius: 100%;
-    border: solid 1px #fff;
-    height: 4rem;
-    line-height: 4rem;
+    border-radius: 10px;
+    // border: solid 1px #fff;
+    // height: 4rem;
+    // line-height: 4rem;
     position: relative;
     text-align: center;
     top: 0;
-    width: 4rem;
+    // width: 4rem;
     font-size: $fa-icon-size;
     &:hover {
       .label {
@@ -62,7 +69,7 @@ $fa-icon-size: 1.5rem;
       }
       background-color: rgba($color: #ffff, $alpha: 0.2);
       transition: all 0.2s ease-in-out;
-      font-size: $fa-icon-size + 0.05rem;
+      font-size: $fa-icon-size;
     }
   }
 }

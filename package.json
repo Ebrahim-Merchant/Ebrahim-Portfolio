@@ -4,21 +4,24 @@
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.20",
+    "@types/markdown-to-jsx": "^6.11.1",
     "@types/node": "12.11.7",
     "@types/react": "16.9.11",
     "@types/react-dom": "16.9.3",
-    "node-sass": "^4.13.0",
+    "markdown-to-jsx": "^6.11.4",
+    "node-sass": "^4.14.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0",
+    "react-scripts": "^3.4.2",
     "typescript": "3.6.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "cd build/ && sftp -oPort=2222 ebrahim@ftp.ebrahim-merchant.com && cd public_html/portfolio && rm * && put -r ."
   },
   "eslintConfig": {
     "extends": "react-app"

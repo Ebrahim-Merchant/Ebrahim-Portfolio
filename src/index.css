@@ -1,11 +1,21 @@
 body {
   margin: 0;
-  font-family: 'Source Sans Pro','Calibre', 'Roboto';
+  font-family: 'Poppins','Calibre', 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
