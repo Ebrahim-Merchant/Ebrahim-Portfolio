@@ -1,0 +1,31 @@
+{
+  "slideshow": [
+    "./assets/projects/Chat-Application/Register.png",
+    "./assets/projects/Chat-Application/basic-layout.png",
+    "./assets/projects/Chat-Application/message-received.png"
+  ],
+  "intro": {
+    "title": "Talk To Me",
+    "description": "A simple chat application made using the MERN (Mongo, Express, React and Node) stack"
+  },
+  "features": {
+    "title": "Features",
+    "list": [
+      "Start a new conversation with existing users",
+      "Message current users",
+      "Receive up-to date notifications from other users",
+      "Create an account and message your friends"
+    ]
+  },
+  "stack": [
+    { "item": "React" },
+    { "item": "Node" },
+    { "item": "Mongo" },
+    { "item": "Express" }
+  ],
+  "cta": {
+    "live": "#",
+    "codeSandbox": "#",
+    "github": "#"
+  }
+}

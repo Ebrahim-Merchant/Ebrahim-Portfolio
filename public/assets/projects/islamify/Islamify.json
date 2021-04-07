@@ -1,0 +1,31 @@
+{
+  "slideshow": [
+    "./assets/projects/Islamify/notification.png",
+    "./assets/projects/Islamify/prayer.png",
+    "./assets/projects/Islamify/qibla.png",
+    "./assets/projects/Islamify/thumbnail.png"
+  ],
+  "intro": {
+    "title": "Islamify",
+    "description": "Islamify aims to be the only app a muslim needs! Experience our minimalist design without any ads."
+  },
+  "features": {
+    "title": "Features",
+    "list": [
+      "Prayer Times (Can configure it to different calculation methods) - Using API and location data",
+      "Notifications for different prayers - Local Notifications",
+      "Dhikr or Tasbeeh",
+      "Qibla Compass - Using compass plugin"
+    ]
+  },
+  "stack": [
+    { "item": "Angular" },
+    { "item": "Ionic" },
+    { "item": "AWS" }
+  ],
+  "cta": {
+    "live": "#",
+    "codeSandbox": "#",
+    "github": "#"
+  }
+}

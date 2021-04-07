@@ -1,3 +1,5 @@
+@import './assets/style/global.scss';
+
 .home {
   text-align: center;
   color: white;
@@ -5,9 +7,8 @@
   min-height: 100vh;
 }
 
-html{
+html {
   scroll-behavior: smooth;
-  font-size: 20px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -20,7 +21,7 @@ html{
   }
 }
 
-.label{
+.label {
   visibility: hidden;
   width: 6rem;
   background-color: black;
@@ -28,7 +29,7 @@ html{
   text-align: center;
   border-radius: 0.6rem;
   padding: 0.5rem 0;
-  font: 1rem 'Roboto';
+  font: 1rem "Roboto";
   position: absolute;
   z-index: 1;
   top: 110%;
@@ -36,11 +37,9 @@ html{
   margin-left: -3rem;
 }
 
-%reset-list{
+%reset-list {
   list-style-type: none;
 }
 /* TODO Icons before hover and after hover */
 /* TODO animations for entrance */
 /* TODO FilmStrip like thing for latest projects */
-
-

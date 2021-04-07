@@ -1,0 +1,28 @@
+.demo-container {
+  padding-top: 1rem;
+  a:link,
+  a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover,
+  a:active {
+    background-color: red;
+  }
+}
+
+.stack-item {
+  padding: 0.25rem;
+  margin: 0.1rem;
+  border-radius: 5px;
+  color: white;
+  background-color: red;
+}
+
+ul {
+  text-align: left;
+}

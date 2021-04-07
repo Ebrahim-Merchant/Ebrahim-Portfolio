@@ -1,0 +1,21 @@
+.media-list {
+  .icon {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: inherit;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    top: 0;
+    font-size: var(--icon-size);
+    &:hover {
+      .label {
+        visibility: visible !important;
+      }
+      background-color: rgba($color: #ffff, $alpha: 0.2);
+      transition: all 0.2s ease-in-out;
+      color: rgb(85, 255, 105);
+      font-size: var(--icon-size);
+    }
+  }
+}

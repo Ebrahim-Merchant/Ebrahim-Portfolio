@@ -1,5 +1,3 @@
-
-
 {
   "name": "Ebrahim Merchant",
   "subtitle": "Software Engineering",
@@ -26,18 +24,24 @@
       "link": "/assets/files/resume.pdf"
     }
   ],
-  "listItems": [
+  "projects": [
     {
-      "label": "Home",
-      "link": "#home"
+      "key": "Chat-Application",
+      "title": "Talk To Me",
+      "description": "A simple chat application made using the MERN (Mongo, Express, React and Node) stack",
+      "thumbnail": ""
     },
     {
-      "label": "About Me",
-      "link": "#about"
+      "key": "Islamify",
+      "title": "Islamify",
+      "description": "Islamify aims to be the only app a muslim needs! Experience our minimalist design without any ads.",
+      "thumbnail": ""
     },
     {
-      "label": "Experience",
-      "link": "#experience"
+      "key": "Meme-generator",
+      "title": "Meme Generator",
+      "description": "A simple Meme create with the latest meme templates or upload you pictures to convert into a meme.",
+      "thumbnail": ""
     }
   ]
 }

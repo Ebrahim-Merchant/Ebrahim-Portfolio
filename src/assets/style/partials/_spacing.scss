@@ -1,0 +1,28 @@
+:root {
+  --base-space: 1rem;
+}
+
+@mixin spacing($base-space: var(--base-space)) {
+
+  @for $unit from 1 to 12 {
+    $base-item-unit: calc(var(---base-space) * #{$unit});
+    @for $factor from 1 to 4 {
+      @if $factor == 4 {
+        > .padding-#{$unit}u {
+          padding: $unit * $factor/4;
+        }
+
+        > .padding-sides-#{$unit}u {
+          padding-right: $unit * $factor/4;
+          padding-left: $unit * $factor/4;
+        }
+
+        > .padding--#{$unit}u {
+          padding-right: $unit * $factor/4;
+          padding-left: $unit * $factor/4;
+        }
+      }
+    }
+  }
+  
+}

@@ -1,3 +1,11 @@
+<div class="slideshow"> 
+  <span class="stack-item" style="background-color:#61DBFB; color: black">React</span>
+  <span class="stack-item">Express JS</span>
+  <span class="stack-item" style="background-color:green">Mongo DB</span>
+  <span class="stack-item" style="color: black; background-color:#f7df1e">Node JS</span>
+  <span class="stack-item" style="background-color:purple" >Socket IO</span>
+</div>
+
 # Talk to me
 A simple chat application made using the MERN (Mongo, Express, React and Node) stack
 
@@ -8,14 +16,6 @@ A simple chat application made using the MERN (Mongo, Express, React and Node) s
 - Receive up-to date notifications from other users
 - Create an account and message your friends
 
-# Stack
-<div> 
-  <span class="stack-item" style="background-color:#61DBFB; color: black">React</span>
-  <span class="stack-item">Express JS</span>
-  <span class="stack-item" style="background-color:green">Mongo DB</span>
-  <span class="stack-item" style="color: black; background-color:#f7df1e">Node JS</span>
-  <span class="stack-item" style="background-color:purple" >Socket IO</span>
-</div>
 
 # Screenshots
 

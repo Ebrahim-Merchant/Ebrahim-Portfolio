@@ -1,0 +1,71 @@
+.project-item {
+  padding: 0 2.5rem 1rem 0;
+  .container {
+    box-sizing: border-box;
+    position: relative;
+    .project-image {
+      border-radius: 0.25rem;
+      width: 100%;
+      margin: 0 0 1.5rem 0;
+    }
+
+    &:hover .info {
+      opacity: 1;
+    }
+
+    .info {
+      border-radius: 0.25rem;
+      width: 100%;
+      margin: 0 0 1.5rem 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      transition: .5s ease;
+      opacity: 0;
+      .heading {
+        font-size: 1rem;
+        padding: 1rem 1rem 0 1rem;
+      }
+
+      .description {
+        font-size: 0.8rem;
+        padding: 1rem 0.4rem;
+      }
+
+      .button {
+        text-decoration: none;
+        border-radius: 25px;
+        border: solid 1px white;
+        padding: 0.3rem;
+        font-size: 0.8rem;
+        color: white;
+        text-decoration: none;
+        width: fit-content;
+        margin: auto;
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.5);
+          color: black;
+        }
+      }
+    }
+  }
+
+  h3 {
+    font-size: 1em;
+    margin: 0 0 0.5em 0;
+    color: #787878;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+  p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: 0;
+  }
+}

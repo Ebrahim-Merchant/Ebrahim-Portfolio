@@ -7,3 +7,10 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+
+describe('test', () => {
+  it('should be like', () => {
+    expect(true).toBe(true);
+  })
+})
